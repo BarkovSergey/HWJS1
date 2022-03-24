@@ -1,4 +1,4 @@
-/*Сложение*/
+//Сложение
 
 function sum(num1,num2){
     return num1 + num2;
@@ -10,7 +10,7 @@ const sumFunction = function (num1,num2){
 
 const sumArrow = (num1,num2) => num1 + num2;
 
-/*Вычитание*/
+//Вычитание
 
 function sub(num1,num2){
     const result = num1 - num2;
@@ -22,7 +22,7 @@ const subFunction = function (num1,num2){
 
 const subArrow = (num1,num2) => num1 - num2;
 
-/*Умножение*/
+//Умножение
 
 function multi(num1,num2){
     return num1 * num2;
@@ -34,7 +34,7 @@ const multiFunction = function (num1,num2){
 
 const multiArrow = (num1,num2) => num1 * num2;
 
-/*Деление*/
+//Деление
 
 function div(num1,num2){
     return num1 / num2;
@@ -46,7 +46,7 @@ const divFunction = function (num1,num2){
 
 const divArrow = (num1,num2) => num1 / num2;
 
-/*Деление с остатком*/
+//Деление с остатком
 
 function divRem(num1,num2){
     return num1 % num2;
@@ -58,7 +58,7 @@ const divRemFunction = function (num1,num2){
 
 const divRemArrow = (num1,num2) => num1 % num2;
 
-/*Больше*/
+//Больше
 
 function more(num1,num2){
     return num1 > num2;
@@ -70,7 +70,7 @@ const moreFunction = function (num1,num2){
 
 const moreArrow = (num1,num2) => num1 > num2;
 
-/*Меньше*/
+//Меньше
 
 function less(num1,num2){
     return num1 < num2;
@@ -82,7 +82,7 @@ const lessFunction = function (num1,num2){
 
 const lessArrow = (num1,num2) => num1 < num2;
 
-/*Больше или равно*/
+//Больше или равно
 
 function moreEq(num1,num2){
     return num1 >= num2;
@@ -94,7 +94,7 @@ const moreEqFunction = function (num1,num2){
 
 const moreEqArrow = (num1,num2) => num1 >= num2;
 
-/*Меньше или равно*/
+//Меньше или равно
 
 function lessEq(num1,num2){
     return num1 <= num2;
@@ -106,7 +106,7 @@ const lessEqFunction = function (num1,num2){
 
 const lessEqArrow = (num1,num2) => num1 <= num2;
 
-/*Равно*/
+//Равно
 
 function Eq(num1,num2){
     return num1 === num2;
@@ -118,7 +118,7 @@ const EqFunction = function (num1,num2){
 
 const EqArrow = (num1,num2) => num1 === num2;
 
-/*Не равно*/
+//Не равно
 
 function nEq(num1,num2){
     return num1 !== num2;
