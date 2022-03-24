@@ -93,11 +93,8 @@ const moreFunction = function (num1,num2){
 }
 
 const moreArrow = (num1,num2) => {
-    if (num1 > num2) {
-        return num1;
-    } else {
-        console.log('Ошибка');
-    }
+    const result = num1 > num2;
+    return result;
 }
 
 /*Меньше*/
@@ -113,12 +110,8 @@ const lessFunction = function (num1,num2){
 }
 
 const lessArrow = (num1,num2) => {
-    const warning = 'Ошибка';
-    if (num1 < num2) {
-        return num1;
-    } else {
-        return warning;
-    }
+    const result = num1 < num2;
+    return result;
 }
 
 /*Больше или равно*/
