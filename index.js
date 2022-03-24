@@ -1,4 +1,5 @@
 /*Сложение*/
+
 function sum(num1,num2){
     const result = num1 + num2;
     return result;
@@ -14,6 +15,7 @@ const sumArrow = (num1,num2) => {
     return result;
 }
 /*Вычитание*/
+
 function sub(num1,num2){
     const result = num1 - num2;
     return result;
@@ -29,6 +31,7 @@ const subArrow = (num1,num2) => {
     return result;
 }
 /*Умножение*/
+
 function mult(num1,num2){
     const result = num1 * num2;
     return result;
@@ -44,6 +47,7 @@ const multArrow = (num1,num2) => {
     return result;
 }
 /*Деление*/
+
 function div(num1,num2){
     const result = num1 / num2;
     return result;
@@ -60,6 +64,7 @@ const divArrow = (num1,num2) => {
 }
 
 /*Деление с остатком*/
+
 function divRem(num1,num2){
     const result = num1 % num2;
     return result;
@@ -75,6 +80,7 @@ const divRemArrow = (num1,num2) => {
     return result;
 }
 /*Больше*/
+
 function more(num1,num2){
     const result = num1 > num2;
     return result;
@@ -85,7 +91,7 @@ const moreFunction = function (num1,num2){
     return result;
 }
 
-let moreArrow = (num1,num2) => {
+const moreArrow = (num1,num2) => {
     if (num1 > num2) {
         return num1;
     } else {
@@ -93,6 +99,7 @@ let moreArrow = (num1,num2) => {
     }
 }
 /*Меньше*/
+
 function less(num1,num2){
     const result = num1 < num2;
     return result;
@@ -103,7 +110,7 @@ const lessFunction = function (num1,num2){
     return result;
 }
 
-let lessArrow = (num1,num2) => {
+const lessArrow = (num1,num2) => {
     if (num1 < num2) {
         return num1;
     } else {
