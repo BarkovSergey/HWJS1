@@ -79,6 +79,7 @@ const divRemArrow = (num1,num2) => {
     const result = num1 % num2;
     return result;
 }
+
 /*Больше*/
 
 function more(num1,num2){
@@ -98,6 +99,7 @@ const moreArrow = (num1,num2) => {
         console.log('Ошибка');
     }
 }
+
 /*Меньше*/
 
 function less(num1,num2){
@@ -111,16 +113,81 @@ const lessFunction = function (num1,num2){
 }
 
 const lessArrow = (num1,num2) => {
+    const warning = 'Ошибка';
     if (num1 < num2) {
         return num1;
     } else {
-        console.log('Ошибка');
+        return warning;
     }
 }
+
 /*Больше или равно*/
+
+function moreEq(num1,num2){
+    const result = num1 >= num2;
+    return result;
+}
+
+const moreEqFunction = function (num1,num2){
+    const result = num1 >= num2;
+    return result;
+}
+
+const moreEqArrow = (num1,num2) => {
+    const result = num1 >= num2;
+    return result;
+}
+
 /*Меньше или равно*/
+
+function lessEq(num1,num2){
+    const result = num1 <= num2;
+    return result;
+}
+
+const lessEqFunction = function (num1,num2){
+    const result = num1 <= num2;
+    return result;
+}
+
+const lessEqArrow = (num1,num2) => {
+    const result = num1 <= num2;
+    return result;
+}
+
 /*Равно*/
+
+function Eq(num1,num2){
+    const result = num1 === num2;
+    return result;
+}
+
+const EqFunction = function (num1,num2){
+    const result = num1 === num2;
+    return result;
+}
+
+const EqArrow = (num1,num2) => {
+    const result = num1 === num2;
+    return result;
+}
+
 /*Не равно*/
+
+function nEq(num1,num2){
+    const result = num1 !== num2;
+    return result;
+}
+
+const nEqFunction = function (num1,num2){
+    const result = num1 !== num2;
+    return result;
+}
+
+const nEqArrow = (num1,num2) => {
+    const result = num1 !== num2;
+    return result;
+}
 
 
 console.log('Сложение:')
@@ -136,4 +203,12 @@ console.log(divRemFunction(5,3));
 console.log('Больше:')
 console.log(more(32,22));
 console.log('Меньше:')
-console.log(lessArrow(1,2));
+console.log(less(5,2));
+console.log('Больше либо равно:')
+console.log(moreEqArrow(2,11));
+console.log('Меньше либо равно:')
+console.log(lessEq(8,2));
+console.log('Равно:')
+console.log(EqArrow(7,7));
+console.log('Не равно:')
+console.log(nEqArrow(2,32));
