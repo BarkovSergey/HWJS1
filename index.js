@@ -32,17 +32,17 @@ const subArrow = (num1,num2) => {
 }
 /*Умножение*/
 
-function mult(num1,num2){
+function multi(num1,num2){
     const result = num1 * num2;
     return result;
 }
 
-const multFunction = function (num1,num2){
+const multiFunction = function (num1,num2){
     const result = num1 * num2;
     return result;
 }
 
-const multArrow = (num1,num2) => {
+const multiArrow = (num1,num2) => {
     const result = num1 * num2;
     return result;
 }
@@ -188,7 +188,7 @@ console.log(sum(2,2));
 console.log('Вычитание:')
 console.log(subFunction(5,3));
 console.log('Умножение:')
-console.log(multArrow(3,4));
+console.log(multiArrow(3,4));
 console.log('Деление:')
 console.log(divArrow(6,2));
 console.log('Деление с остатком:')
