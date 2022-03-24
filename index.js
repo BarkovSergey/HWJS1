@@ -130,25 +130,14 @@ const nEqFunction = function (num1,num2){
 
 const nEqArrow = (num1,num2) => num1 !== num2;
 
-console.log('Сложение:')
-console.log(sum(2,2));
-console.log('Вычитание:')
-console.log(subFunction(5,3));
-console.log('Умножение:')
-console.log(multiArrow(3,4));
-console.log('Деление:')
-console.log(divArrow(6,2));
-console.log('Деление с остатком:')
-console.log(divRemFunction(5,3));
-console.log('Больше:')
-console.log(more(32,22));
-console.log('Меньше:')
-console.log(less(5,2));
-console.log('Больше либо равно:')
-console.log(moreEqArrow(2,11));
-console.log('Меньше либо равно:')
-console.log(lessEq(8,2));
-console.log('Равно:')
-console.log(EqArrow(7,7));
-console.log('Не равно:')
-console.log(nEqArrow(2,32));
+console.log('Сложение:',sum(2,2));
+console.log('Вычитание:',subFunction(5,3));
+console.log('Умножение:',multiArrow(3,4));
+console.log('Деление:',divArrow(6,2));
+console.log('Деление с остатком:',divRemFunction(5,3));
+console.log('Больше:',more(32,22));
+console.log('Меньше:',less(5,2));
+console.log('Больше либо равно:',moreEqArrow(2,11));
+console.log('Меньше либо равно:',lessEq(8,2));
+console.log('Равно:',EqArrow(7,7));
+console.log('Не равно:',nEqArrow(2,32));
